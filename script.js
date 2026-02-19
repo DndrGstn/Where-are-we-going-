@@ -24,7 +24,7 @@ const questions = [
             "This capital city is famous for its ancient temples and shrines.",
             "It lies on a river with a name that also belongs to a famous bridge.",
             "It was heavily bombed during WWII and later rebuilt with a modern city center.",
-            "It is known for its beer gardens and Oktoberfest celebrations.",
+            "It is known for one of the most famous nightclub in the world",
             "This city is the capital of Germany."
         ],
         answer: "berlin"
@@ -191,4 +191,5 @@ window.addEventListener("click", (event) => {
     if (event.target === rulesModal) {
         rulesModal.style.display = "none";
     }
+
 });
