@@ -1,5 +1,5 @@
 
-Pages / Components
+### Pages / Components
 
 Main Game Page – Displays the clues, input field for guesses, score, and buttons for game control.
 
