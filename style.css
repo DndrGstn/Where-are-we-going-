@@ -1,0 +1,101 @@
+body {
+    background-image: url(./luukolind.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.game {
+    background: #a02613;
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+}
+
+#clueBox {
+    background: #45271f;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+#rulesBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: #a02613;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+#rulesBtn:hover {
+    opacity: 0.8;
+}
+
+
+#rulesModal {
+    display: none;
+
+    position: fixed;
+    z-index: 999;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#rulesContent {
+    background-color: #45271f;
+    margin: 10% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+}
+
+
+#closeRules {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}

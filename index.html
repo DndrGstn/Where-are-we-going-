@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>On Track?!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <audio src="./Horn.mp3" autoplay id="horn"></audio>
+    <audio src="./tåg.mp3" autoplay id="train"></audio>
+    <div class="game">
+        <h1> Where are we going?</h1>
+
+        <div id="clueBox">
+            <p id="clueText">Press start to begin!</p>
+            <p id="countdown"></p>
+        </div>
+
+        <input type="text" id="guessInput" placeholder="Enter your guess here" disabled>
+
+        <div class="buttons">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="nextClue()">Next Clue</button>
+            <button onclick="checkAnswer()">Submit Guess</button>
+            <button onclick="stopanswer()">STOP</button>
+        </div>
+
+        <p id="result"></p>
+        <p id="score"></p>
+    </div>
+    <button id="rulesBtn">Rules</button>
+
+
+    <div id="rulesModal">
+        <div id="rulesContent">
+            <span id="closeRules">&times;</span>
+            <h3>“På spåret” (which means “On the Track”) is a popular Swedish TV quiz show.
+
+                Two teams compete against each other.
+
+                They are “traveling” by train across the world (virtually).
+
+                Each team is given clues about a city or country.
+
+                They get points for guessing the correct place — the earlier they guess, the more points they get.
+
+                The show combines geography, culture, and trivia with a fun travel theme.
+
+                Think of it as a mix between a geography quiz and a travel game.</h3>
+            <h4>Game Rules</h4>
+            <ul>
+                <li>Press Start Game to begin.</li>
+                <li>One clue is shown at a time.</li>
+                <li>Press STOP to stop the train and enter your guess.</li>
+                <li>You get fewer points for each additional clue.</li>
+                <li>Have fun!</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
