@@ -68,7 +68,7 @@ function nextClue() {
     }
     toggleMusic();
     hidecountdown();
-    gameinterval = setInterval(nextClue, 10000);
+    gameinterval = setInterval(nextClue, 20000);
 }
 
 function checkAnswer() {
@@ -193,6 +193,7 @@ window.addEventListener("click", (event) => {
     }
 
 });
+
 
 
 
