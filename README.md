@@ -2,14 +2,16 @@
 ### Pages / Components
 
 Main Game Page – Displays the clues, input field for guesses, score, and buttons for game control.
+<img width="1919" height="1079" alt="Screenshot 2026-02-19 103014" src="https://github.com/user-attachments/assets/57026e09-38a1-41d4-aeb4-d062ec9413dd" />
 
 Rules Popup – Accessible via a button in the top-right corner, explains the game rules.
+<img width="1917" height="1079" alt="Screenshot 2026-02-19 103034" src="https://github.com/user-attachments/assets/bb1ba815-c8dc-45af-bbe3-fd1a9578932e" />
 
 Audio – Background train music and horn sound effects triggered during gameplay.
 
 Design & Planning
 
-The game was designed to provide a simple, responsive, and entertaining experience:
+The game was planned with a focus on simplicity, responsiveness, and an engaging user experience, ensuring it works smoothly across all devices while maintaining a clear and intuitive layout.
 
 ### Goal:
 
@@ -57,6 +59,7 @@ Font: Arial
 Reason: Simple, readable, and works well with the game’s vibrant colors.
 
 Colour Scheme
+<img width="95" height="254" alt="Screenshot 2026-02-19 101534" src="https://github.com/user-attachments/assets/3aa18767-a129-4f09-8481-0e9ff8767563" />
 
 Game background: #a02613
 
