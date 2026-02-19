@@ -11,7 +11,7 @@ Design & Planning
 
 The game was designed to provide a simple, responsive, and entertaining experience:
 
-Goal:
+### Goal:
 
 Give players a “På Spåret” quiz experience online
 
@@ -21,7 +21,7 @@ Track points and scores
 
 Be fully functional on mobile and desktop devices
 
-Visual Style:
+### Visual Style:
 
 Warm, contrasting colors for clues and game interface
 
@@ -29,7 +29,7 @@ Background image adds atmosphere but is responsive and scales well
 
 Clean typography (Arial) for readability
 
-User Stories
+### User Stories
 
 User Story 1 — New Player
 As a new player,
@@ -41,7 +41,7 @@ As a returning player,
 I want my score to be tracked correctly and the game to respond on all devices,
 so that I can continue to improve my performance and play multiple rounds.
 
-Wireframes / Layout
+### Wireframes / Layout
 
 Game container centered with clues, input, and buttons
 
@@ -51,7 +51,7 @@ Rules button fixed in top-right corner
 
 Score and result areas visible below input
 
-Typography
+### Typography
 
 Font: Arial
 Reason: Simple, readable, and works well with the game’s vibrant colors.
@@ -68,7 +68,7 @@ Text: White for readability
 
 Features and Navigation
 
-Game Controls:
+### Game Controls:
 
 Start Game – Begins the game, starts train audio and clue timer
 
@@ -78,7 +78,7 @@ Submit Guess – Checks player’s answer and updates the score
 
 STOP – Pauses the game, plays horn, enables input
 
-Rules Popup:
+### Rules Popup:
 
 Explains how to play the game
 
@@ -90,13 +90,13 @@ Works on mobile phones, tablets, and desktops
 
 Background image scales and crops correctly on smaller screens
 
-Audio Effects:
+### Audio Effects:
 
 Background train sound
 
 Horn sound on stop
 
-Technologies Used
+### Technologies Used
 
 HTML – Game structure and content
 
@@ -108,35 +108,35 @@ GitHub – Version control and deployment via GitHub Pages
 
 ChatGPT – Assistance and guidance
 
-Testing
+### Testing
 
 Browser Testing:
 
-Google Chrome ✅
+Google Chrome 
 
-Firefox ✅
+Firefox 
 
-Microsoft Edge ✅
+Microsoft Edge 
 
-Safari Mobile ✅
+Safari Mobile 
 
-Responsiveness:
+### Responsiveness:
 
 Tested on mobile and tablet devices
 
 Elements scale correctly and maintain readability
 
-Bugs / Fixes:
+### Bugs / Fixes:
 
 Countdown and audio interactions adjusted to work properly across devices
 
 Input field disabled/enabled correctly to prevent guessing at wrong times
 
-Deployment
+### Deployment
 
 Hosted on: GitHub Pages
 
-Instructions:
+### Instructions:
 
 Open the URL in any browser
 
