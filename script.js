@@ -94,7 +94,7 @@ function checkAnswer() {
     }
     hidecountdown();
     toggleMusic();
-    gameinterval = setInterval(nextClue, 10000);
+    gameinterval = setInterval(nextClue, 20000);
 }
 
 function moveToNextQuestion() {
@@ -193,4 +193,5 @@ window.addEventListener("click", (event) => {
     }
 
 });
+
 
