@@ -50,7 +50,7 @@ function startGame() {
 
     showClue();
     toggleMusic();
-    gameinterval = setInterval(nextClue, 10000);
+    gameinterval = setInterval(nextClue, 20000);
     console.log(gameinterval);
 }
 
@@ -193,3 +193,4 @@ window.addEventListener("click", (event) => {
     }
 
 });
+
