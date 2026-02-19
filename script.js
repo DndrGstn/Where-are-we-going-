@@ -3,7 +3,7 @@ const questions = [
         clues: [
             "This capital city has a famous literary pub called The Temple Bar.",
             "A river flows through it sharing its name with an old Viking settlement.",
-            "It is home to the oldest university in Ireland outside of Dublin city center.",
+            "It is home to the oldest university in Ireland outside of the city center.",
             "A giant Guinness brewery dominates the skyline.",
             "This city is the capital of Ireland."
         ],
@@ -193,5 +193,6 @@ window.addEventListener("click", (event) => {
     }
 
 });
+
 
 
