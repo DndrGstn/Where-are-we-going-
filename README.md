@@ -131,7 +131,9 @@ Elements scale correctly and maintain readability
 
 ### Bugs / Fixes:
 
-Countdown and audio interactions adjusted to work properly across devices
+Countdown and audio interactions adjusted to work properly across devices.
+
+I experienced issues with the game restarting every time the “Start Game” button was pressed. To resolve this, I adjusted the logic so the game continues running when interacting with other buttons, ensuring smoother gameplay and preventing unintended resets.
 
 Input field disabled/enabled correctly to prevent guessing at wrong times
 
@@ -149,11 +151,17 @@ Use “Next Clue” and “Submit Guess” buttons as the game progresses
 
 Click “STOP” to pause and play horn
 
-Credits
+### Credits
 
-Audio: [Horn and train sound effects] (your source)
+Simon Johansson - a close friend of mine who works as a developer. help with some bugfixes and responsive design
 
-Background image: (your source)
+Song played during game: https://www.youtube.com/watch?v=CJNVXrU4DgA
+edited for better use
+
+Horn audio: https://elevenlabs.io/sound-effects/train-horn
+train horn 9
+
+Background image: https://www.cafe.se/pa-sparet-2025/
 
 Code guidance: ChatGPT
 
